@@ -9,7 +9,7 @@ namespace DrinkWater {
             #pragma warning restore CS8604 // Possible null reference argument.
 
             int i = 0;
-            while (i < limit) {
+            while (i < limit || limit == 0) {
                 Notification.SendNotification("Beba água", "Esta na hora de você tomar um pouco de água");
                 Thread.Sleep(TimeSpan.FromMinutes(interval));
                 i++;
