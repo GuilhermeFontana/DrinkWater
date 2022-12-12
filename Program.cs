@@ -1,4 +1,5 @@
-﻿using System.Configuration;
+﻿using DrinkWater.Resources;
+using System.Configuration;
 
 namespace DrinkWater {
     internal class Program {
@@ -10,7 +11,9 @@ namespace DrinkWater {
 
             int i = 0;
             while (i < limit || limit == 0) {
-                Notification.SendNotification("Beba água", "Esta na hora de você tomar um pouco de água");
+                string[] message = new Messages().GetMessage();
+
+                Notification.SendNotification(message[0], message[1]);
                 Thread.Sleep(TimeSpan.FromMinutes(interval));
                 i++;
             }

@@ -20,6 +20,5 @@ Limit    | int    | Limite de vezes que a notificação pode ser exibida - 0 = i
 
 - - -
 ## ⏳ Futuras Impliementações
-[ ] Configuração do som da notificação
 
-[ ] Diferentes menssagens randomicas
+[ ] Opção para fechar a aplicação
