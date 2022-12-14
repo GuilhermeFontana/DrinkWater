@@ -16,9 +16,3 @@ Key      | Value  | Descrição
 -------- | ------ | ------
 Interval | double | Intervalo, em minutos, entre as notificações
 Limit    | int    | Limite de vezes que a notificação pode ser exibida - 0 = inlimitado *(recomendado)*
-
-
-- - -
-## ⏳ Futuras Impliementações
-
-[ ] Opção para fechar a aplicação
