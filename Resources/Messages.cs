@@ -7,7 +7,7 @@
         public Messages() {
             this.LoadMessages();
         }
-        
+
         private void LoadMessages() {
             this.messagesList.Clear();
 
@@ -23,14 +23,12 @@
             this.messagesList.Add(message);
             message = new string[2] { "⛰", "Melhor uma pedra no caminho, do que duas nos rins. Tome água" };
             this.messagesList.Add(message);
+            message = new string[2] { "Hidrate-se", "Um corpo hidratado é um corpo mais saudável. Beba água" };
+            this.messagesList.Add(message);
         }
 
         public string[] GetMessage() {
-            Random random = new Random();
-
-            int messageIndex = random.Next(0, this.messagesList.Count - 1);
-
-            return this.messagesList[messageIndex];
+            return this.messagesList[new Random().Next(0, this.messagesList.Count)];
         }
     }
 }

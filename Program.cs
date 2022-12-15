@@ -22,9 +22,9 @@ namespace DrinkWater {
             i = 0;
             while (i < limit || limit == 0) {
                 string[] message = new Messages().GetMessage();
-
                 Notification.SendNotification(message[0], message[1]);
                 Thread.Sleep(TimeSpan.FromMinutes(interval));
+
                 i++;
             }
         }
