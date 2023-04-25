@@ -11,7 +11,7 @@
         private void LoadMessages() {
             this.messagesList.Clear();
 
-            string[] message = new string[2] { "Beba Água", "Esta na hora de você tomar um pouco de água" };
+            string[] message = new string[2] { "Beba água", "Esta na hora de você tomar um pouco de água" };
             this.messagesList.Add(message);
             message = new string[2] { "100% Hidratado", "Beba um pouco de água para manter-se 100% hidratado" };
             this.messagesList.Add(message);
@@ -23,7 +23,15 @@
             this.messagesList.Add(message);
             message = new string[2] { "⛰", "Melhor uma pedra no caminho, do que duas nos rins. Tome água" };
             this.messagesList.Add(message);
-            message = new string[2] { "Hidrate-se", "Um corpo hidratado é um corpo mais saudável. Beba água" };
+            message = new string[2] { "Hidrate-se", "Lembre-se de beber água regularmente ao longo do dia para manter seu corpo saudável e hidratado." };
+            this.messagesList.Add(message);
+            message = new string[2] { "Já bebeu água hoje?", "Um lembrete para beber um copo de água agora." };
+            this.messagesList.Add(message);
+            message = new string[2] { "Hora de hidratar!", "Beba um copo de água agora e sinta a diferença." };
+            this.messagesList.Add(message);
+            message = new string[2] { "Surprise motherfucker", "Não deixe a sede te pegar de surpresa. Beba água agora para manter seu corpo hidratado." };
+            this.messagesList.Add(message);
+            message = new string[2] { "⌚", "Lembre-se de beber água em intervalos regulares ao longo do dia para manter seu corpo hidratado e energizado." };
             this.messagesList.Add(message);
         }
 
